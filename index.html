@@ -232,7 +232,7 @@
         function clickFinal() {
             document.body.classList.add("fullscreen-mode");
             document.body.innerHTML = `
-                <img src="final.jpg" alt="Final" class="final-img">
+                <img src="Final.jpeg" onerror="this.src='final.jpg'; this.onerror=function(){this.src='Final.jpg';}" alt="Final" class="final-img">
             `;
         }
     </script>
